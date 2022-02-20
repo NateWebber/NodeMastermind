@@ -4,7 +4,6 @@ extends layout
 block content
     
     h1 Welcome to Mastermind!
-    p Let's play a game of Mastermind! 
     br
     h2#currGuessLine I guess:
     br
@@ -16,4 +15,6 @@ block content
     br
     
     p#responseLine Last received response: 
+
+    h2#winLine I won!
     script(src='/mastermind.js')
