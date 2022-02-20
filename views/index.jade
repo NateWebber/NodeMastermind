@@ -1,0 +1,19 @@
+
+extends layout
+
+block content
+    
+    h1 Welcome to Mastermind!
+    p Let's play a game of Mastermind! 
+    br
+    h2#currGuessLine I guess:
+    br
+    p Please input the response for this guess (Use 'C' for colored, 'W' for white, and 'X' for blank)
+
+    label(for="inputBox") Response: 
+    input#inputBox(type="text")
+    button#submitButton(onClick="onSubmitClicked()") Submit
+    br
+    
+    p#responseLine Last received response: 
+    script(src='/mastermind.js')

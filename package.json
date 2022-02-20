@@ -1,12 +1,8 @@
 {
-  "dependencies": {
-    "express": "^4.17.3"
-  },
   "name": "nodemastermind",
-  "description": "Node.js/Express Mastermind Web App",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/NateWebber/NodeMastermind/issues"
   },
-  "homepage": "https://github.com/NateWebber/NodeMastermind#readme"
+  "homepage": "https://github.com/NateWebber/NodeMastermind#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jade": "^0.31.2"
+  }
 }
